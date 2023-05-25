@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHLOE CHIARLINI | Mon site cv</title>
+    <link rel="stylesheet" href="/src/styles/style.css"/>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="/src/index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="/src/asset/logo.svg" class="logo" />
+
+      <nav class="navbar">
+        <a href="#home">Accueil</a>
+        <a href="#about">A propos</a>
+        <a href="#services">Mes services</a>
+        <a href="#porfolio">Mes réalisations</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="menu-icon">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+
+    <section id="home" class="home">
+      <div class="home-content">
+        <h3>Frontend Developer</h3>
+        <h1>Créativité en action : Explorer mon univers</h1>
+        <a
+          href="/src/asset/CV-CHIARLINI-Chloe.pdf"
+          download="CV-CHIARLINI-Chloe.pdf"
+          ><button class="btn">Télécharger mon CV</button></a
+        >
+      </div>
+
+      <!-- <div class="home-img">
+            <div class="glowing-circle">
+                <span></span>
+                <span></span>
+                <div class="image">
+                    <img src="/src/asset/profil.jpeg" alt="">
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <section id="about" class="about">
+      <div class="bloc">
+        <div class="about-col-1">
+          <img src="/src/asset/img-a-propos.jpeg" alt="" />
+        </div>
+
+        <div class="about-col-2">
+          <h1>A propos de moi</h1>
+          <p>
+            Je suis actuellement étudiante à l'école MyDigitalSchool Toulouse,
+            où j'explore les différents aspects du marketing, du design et du
+            développement web. Passionnée par les possibilités infinies qu'offre
+            le monde numérique, j'ai décidé de me spécialiser en développement
+            web lors de ma troisième année, en suivant un rythme d'alternance.
+          </p>
+          <a href="#">En savoir plus...</a>
+
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+            <p class="tab-links" onclick="opentab('diplôme')">Diplômes</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Maîtrise des langages de programmation</span><br />
+                langages de programmation essentiels
+              </li>
+              <li>
+                <span>Expérience avec les frameworks et bibliothèques </span
+                ><br />Bootstrap,ReactJS, NodeJS, ExpressJS
+              </li>
+              <li>
+                <span>Systèmes de Gestion de Contenu</span><br />Woordpress,
+                Elementor, Woocommerce
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>Avril-Juin 2023</span><br />Developpeur web - Annalogis
+              </li>
+              <li>
+                <span> Juillet 2020 - Avril 2023</span><br />Employée de station
+                - TotalEnergies
+              </li>
+              <li>
+                <span>Avril-Juin 2022</span><br />Marketing digital - Vivinnov
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="diplôme">
+            <ul>
+              <li>
+                <span>MyDigitalSchool - 2023 - 2024 (en cours)</span
+                ><br />Bachelor Développeur Web
+              </li>
+              <li>
+                <span>MyDigitalSchool - 2021 - 2023</span><br />Bachelor cycle
+                web et multimédia
+              </li>
+              <li>
+                <span>Lycée d'Amboise - Albi - 2021</span><br />Baccalauréat
+                spécialité Mathématiques et Science de la Vie et de la Terre
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="bloc">
+        <h2>Mes services</h2>
+
+        <div class="services-list">
+          <div>
+            <i class="bx bx-code-alt"></i>
+            <h3>Developpement</h3>
+            <p>
+              Je maîtrise les langages de programmation tels que HTML, CSS et
+              JavaScript, ainsi que les frameworks populaires tels que React et
+              Angular. Je suis capable de créer des sites web modernes, réactifs
+              et interactifs en utilisant les meilleures pratiques du
+              développement front-end.
+            </p>
+          </div>
+          <div>
+            <i class="bx bx-crop"></i>
+            <h3>Web design</h3>
+            <p>
+              En plus de mes compétences techniques, je possède également un
+              intérêt pour le design. J'ai une capacité à imaginer et à
+              concevoir des interfaces utilisateur attrayantes et intuitives. Je
+              suis capable de créer des designs plaisants tout en respectant les
+              principes de l'expérience utilisateur (UX) et de l'interface
+              utilisateur (UI).
+            </p>
+          </div>
+          <div>
+            <i class="bx bx-store-alt"></i>
+            <h3>Integration web</h3>
+            <p>
+              Grâce à ma solide connaissance des CMS (Systèmes de Gestion de
+              Contenu), je suis en mesure de personnaliser et d'optimiser les
+              thèmes et les templates en fonction des besoins spécifiques de mes
+              clients : gestion de contenu, la création de pages, la
+              configuration des plugins et des extensions, ainsi que
+              reférencement seo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <h2>Mon portfolio</h2>
+      <div class="portfolio-grid">
+        <figure class="portfolio-item">
+            <a href="https://www.chiarlini-chloe.com/prettyice/">
+                <div class="portfolio-item-illu">
+                    <img src="/src/asset/p1.png" alt="Image d'illustration du projet 1" />
+                </div>
+            </a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="https://mon-lien.xyz">
+                <div class="portfolio-item-illu">
+                    <img src="/src/asset/p1.png" alt="Image d'illustration du projet 1" />
+                </div>
+               
+            </a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="https://mon-lien.xyz">
+                <div class="portfolio-item-illu">
+                    <img src="/src/asset/p1.png" alt="Image d'illustration du projet 1" />
+                </div>
+                <div class="portfolio-item-content-c">
+                    
+            </a>
+        </figure>
+        <figure class="portfolio-item">
+            <a href="https://mon-lien.xyz">
+                <div class="portfolio-item-illu">
+                    <img src="/src/asset/p1.png" alt="Image d'illustration du projet 1" />
+                </div>
+                <div class="portfolio-item-content-c">
+            </a>
+        </figure>
+      </div>
+        <!-- 
+        <a href="#" class="s a-img-txt">
+            <img src="./asset/p1.png" alt="site" />
+            <span class="a-txt">NOM</span>
+        </a>
+        <a href="#" class="s a-img-txt">
+            <img src="./asset/p1.png" alt="site" />
+            <span class="a-txt">NOM</span>
+        </a>
+        <a href="#" class="s a-img-txt">
+            <img src="./asset/p1.png" alt="site" />
+            <span class="a-txt">NOM</span>
+        </a> -->
+    </section>
+
+    <!-- FOOTER -->
+  </body>
+</html>
